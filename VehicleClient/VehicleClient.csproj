@@ -19,6 +19,15 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="System.Text.Json" Version="8.0.3" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="сonnectionSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  
+  <ProjectExtensions><VisualStudio><UserProperties сonnectionsettings_1json__JsonSchema="https://json-schemastore.org/project" /></VisualStudio></ProjectExtensions>
 
 </Project>
